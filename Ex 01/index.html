@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Bokehlicia-Captiva-Chat-irc.ico" type="image/x-icon">
+    <title>Anotações HTML5</title>
+</head>
+<body>
+    <h1>- Olá, Mundo - </h1>
+           <p>Esse é meu primeiro documento HTML e estou muito ansioso e com expectativas</p>
+
+    <h2>- Paragráfos e Quebra de Linhas - </h2>
+           <p>Paragráfos e quebra de linha, para quebrar a linha utilize <br> tag-br que ela quebra a linha</p>
+        <h3>Simbolos e Emoji</h3>
+           <p> para utilizar  & e comercial e a sigla seguida de ponto e virgula para utilizar simbolos: <br> Exemplo &trade; &copy; &reg;   </p>
+           <p>Para adiconar emoji vamos &#x1F62D; &#x🤖 digita &#x seguido do código do emoji, dica pegar o código no emojipedia</p>
+
+    <h2> - Imagens - </h2>
+            <p>Para pegar imagens se atentar para imagens com direito de uso, no google você consegue filtrar imagens com direito de uso. <br>tem sites que disponibilizam como o Pexels, Adobe, Unsplash, <br>Utilizar programa gimp para formatar a imagem</p>
+        <h3>Formato das Imagens</h3>
+            <p>basicamente utiliza JPEG e PNG, pode ter um gif e um TIFF mas o tamanho e a utilização não convem para maioria dos casos</p>
+         <h3>Codando Imagens</h3>
+            <p> Para colocar imagens no html </p>
+            <img src="olho medio.jpeg.jpeg" alt="Olho Médio">
+            <p> src é source origem e alt é alternativo serve para descrever a imagem caso seja utilizado acessibilidade</p>
+            <p>dica de ouro, salvar as imagens na mesma pasta do arquivo e quando ativar a tag de imagem no scr basta apertar ctrl e espaço que vai aparecer todas as imagens para selecionar</p>
+            <p>Para colocar fotos externas de outros servidor ou local é necessário copiar a URL inteira da imagem</p>
+     <h2>Favicon</h2>
+            <p>Favicon é o icone do site, para adicionar basta</p>
+            <p>Dica utilizar o site Favicon para mudar formato para ICO</p>
+            <p>Dica utilizar site Icon Archive para baixar modelos de Icon </p>
+            <p>Para adicionar basta ir na head e digita link favicon ai vai em href e coloca a URL ou o ctrl espaço e seleciona </p>
+    <h2>Hierarquia de Títulos</h2>
+        <ol>Lista de Hierarquia</ol>
+        <li>Titulo Principal H1</li>
+        <li>Sub Titulo H2</li>
+        <li>E assim por diante H3, H4, H4...</li>
+        <li>Para o Paragráfo utilizar o P</li>
+        <p>Exemplo</p>
+        <h1>Entendendo Portugal</h1>
+            <h2>Introdução</h2>
+                <h3>Justificava da Tematica</h3>
+                <h3>Perguntas de Partida</h3>
+                <h3>Metodologia de Investigação</h3>
+                    <h4>Etapas de Investigação</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus molestiae, nam illum provident velit deleniti odio odit voluptate placeat consectetur ullam nisi ab. Molestias eveniet id asperiores ex libero possimus?</p>
+                    <h4>Instrumentos de Investigação</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta sit minus fugiat velit consequatur, perspiciatis deleniti animi error explicabo, nulla sapiente iusto, aperiam adipisci dolores fugit. Quo placeat voluptatum officia.</p>
+                        <h5>Só para testar o nivel 5</h5>
+                            <h6>Testando o último nível</h6>
+                <h3>Os Instrumentos de Gestão</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur sed atque obcaecati cupiditate iusto quia reprehenderit totam, dolorum corrupti accusantium rem ex rerum odit, sint similique explicabo alias earum magnam!</p>
+
+    <h2>Semantica na HTML é Importante</h2>
+            <p>Significado de Semantica: Tem mais valor o significado do que a forma</p>
+            <p>No HTML4 tem algumas tag's obsoletas como por exemplo gbcolor entre outras, assim como não possuia o head e não dava para parametrizar o idioma e a UTF-8 do site</p>
+            <p>SE A TAG FICAR VERMELHA NO VSC ELA ESTÁ OBSOLETA</p>
+            <p>Para mudar forma, tamanho, cor, fonte, enfim se utiliza o CSS o HTML é para o significado das coisas a forma é com o CSS</p>
+            <marquee behavior="" direction="left">Só um teste</marquee>
+    <h2>Formatação de Texto</h2>
+            <h3>Principais Formatações</h3>
+            <h4><Strong>Negrito</Strong></h4>
+                <p>Coloca a Tag "b" para colocar em <b>negrito</b></p>
+                <p>Tem o termo o Strong para considera a semantica <strong>Strong</strong></p>
+            <h4><em>Italico</em></h4>
+                <p>Para colocar em italico utiliza a tag I não semantica <i>Italico</i></p>
+                <p>Para colocar Italico com semantica utilizar a TAG EM  <em>Semantica</em></p>
+            <h4>Marca Texto</h4>
+                <p>Para marcar o texto utilizar a TAG Mark <Mark>Texto Marcado</Mark></p>, para mudar a cor é com CSS pois cor é forma não é significado
+            <h4>Texto Grande e Pequeno</h4>
+                <p>Estamos criando um texto <big>GRANDE</big> (lembre que tag em vermelho é obsoleta e pode não funcionar) grande e um <small>pequeno</small> pequeno nesse parágrafo</p>
+            <h4>Texto Excluído/Deletado</h4>
+                <p>Marcar um texto que pode ser lido mas não deve ser considerado, usar TEG Del <del>exemplo artigo revogado</del></p>
+            <h4>Texto Inserido Sublinhado</h4>
+                <p>Indicar que um texto foi inserido e deve ter TAG Ins <ins>Enfase</ins> para utilizar sem sentido apenas forma a TAG é u <u>Somente Forma</u></p>
+            <h4>Texto Sobscrito</h4>
+                <p>Tag sup <sup>x20</sup></p>
+            <h4>Texto Subscrito</h4>
+                <p>Tag sub <sub>H2o</sub></p>
+        <h3>Citações e Códigos</h3>
+            <h4>Código-Fonte</h4>
+                <p>O comando document <code>getEle1mentById</code> ('teste) é escrito em linguagem Javascript</p>
+                <code>num = int(input(digite um numero'))</code>
+                <p>a Tag code não coloca a organização mas da para usar o pre junto com o cod</p>
+                <p>Dica para organizar a indetação segura shit e tab com o texto selecionado que ele volta</p>
+            <h4>Citações Simples</h4>
+                <p>Como diria um pai de um amigo, <q>o computador é um burro muito rapido</q> basta utilizar uma TAG q o interessante é não utilizar as aspas pq a aspa é a forma e o q é a semantica</p>
+            <h4>Citação Completa</h4>
+                <p>Utilizar a Citação completa é a tag blockquote, Segundo Jegff no seu livro HTML para leitos
+                    <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat iusto, aperiam alias nostrum praesentium provident ipsum consequuntur, tempora, quaerat officiis veniam? Error aut harum laboriosam ullam, aspernatur repellat quod ad. </blockquote>
+                    A Citação completa da um recuo na citação</p>
+        <h3>Abreviações</h3>
+            <p>Para mostrar o texto abreviado, abreviar, estou estudando <abbr title="Hyper Text Markut Languange">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+        <h3>Texto ao Contrario</h3>
+            <p>Para texto ao contrario Tag bdo <bdo dir="ltr"> Texto </bdo> </p>
+
+    <h2>Listas Ol - Ordenada e UL - Não Ordenada</h2>
+        <h3> Listas Ol Ordenada</h3>
+            <p>Listas Ol é lista Ordenada abre a tag ol e nos itens coloca a tag li no final fecha a tag ol</p>
+            <ol>Lista Ordenada
+            <li>Relação de Itens</li>
+            <li>Segundo item</li>
+            <li>e assim por diante</li></ol>
+        <p>Dica da para mudar o numero, basta colocar a tag type e escolher</p>
+        <ol type="a"> Lista Ordenada
+            <li>Relação de Itens</li>
+            <li>Segundo item</li>
+            <li>e assim por diante</li></ol>
+        <ol type="I"> Lista Ordenada
+            <li>Relação de Itens</li>
+            <li>Segundo item</li>
+            <li>e assim por diante</li></ol>
+
+        <h3> Listas Não Ordenadas</h3>
+            <p>Listas não ordenadas sem sequencia </p>
+            <ul>Lista não ordenada
+                <li>Relação de Itens</li>
+                <li>Segundo item</li>
+                <li>e assim vai</li></ul>
+            <p>Listas não ordenadas sem sequencia para mudar a bolinha </p>
+            <ul type="circle">
+            Lista não ordenada
+                <li>Relação de Itens</li>
+                <li>Segundo item</li>
+                <li>e assim vai</li></ul>      
+                <p>Listas não ordenadas sem sequencia </p>
+            <ul type="square">Lista não ordenada
+                <li>Relação de Itens</li>
+                <li>Segundo item</li>
+                <li>e assim vai</li></ul>
+        <h3>Listas mistas e de Definições</h3>
+            <p>Para criar listas mistas (com ordenadas e não ordenadas) Juntando lista</p>
+        <ol type="a"> Lista Ordenada
+            <li>Videos Games</li>
+                <ol>
+                    <li>SNES</li>
+                        <ul><li>Super Mario</li>
+                            <li>Metroid</li></ul>
+                    <li>MegaDrive</li>
+                </ol> 
+            <li>PC</li>
+                <ul><li>Hollow Night</li>
+                    <li>Red Dead</li>
+                    <li>God of War</li></ul></ol>
+        <h3>Lista de Definição</h3>
+            <p>Tem o termo e descrição tag dl (O Google consegue pesquizar dentro da descrição das listas com definição)</p>
+            <dl>Lista
+                <dt>Contabil</dt>
+                <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit impedit deleniti, tempora dolorem tenetur fugiat placeat, illum nisi aliquam porro saepe consequuntur explicabo, quas veritatis praesentium omnis quasi nemo non!</dd>
+                <dt>Fiscal</dt>
+                <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident deleniti aliquam molestiae a, reprehenderit amet neque libero hic dignissimos impedit cum veniam necessitatibus distinctio labore beatae et, magnam rem! Inventore.</dd>
+            </dl>
+    <h2>Link e âncoras em HTML5</h2>
+            <h3>Links Externos</h3>
+                <p>Dica Para facilitar na busca dos mecanismos de busca pesquizar sobre SEO</p>
+                <p>Para acessar o site do CRC AM no link https://www.crcam.org.br/, colocar a tag "a" indicar a referencia (link do site) e digitar o texto que será o "hiperlink" <a href="https://www.crcam.org.br/" target="_blank" rel="external">CRC AM</a></p>
+                <p>Para link externo é interessante utilizar é target=_blank e rel=external para abrir em nova aba </p>
+            <h3>Links Internos</h3>
+                <p>Segunda Página do Síte</p>
+                <p>para ir para a p <a href="Pg02.html" rel="next" target="_self">Página II</a>, para não criar a outra aba use a target self</p>
+                <p>Colocar a ref next e prev para que o google ou a navegação entenda qual é a proxima página e a anterior </p>
+                <p>Para colocar o link de uma fake news ou patriocinio, coisas que não tem o seu haval colocar rel unfollow para que não seja indexado o site indicado no link com o nosso site</p>
+                <p><a href="noticias pg 3/pg03.html">Páginas III</a></p>
+            <h3>Links para Download</h3>
+                <p>Para criar Link de Download, <a href="Livro/RSANTOS.pdf" Download="Consulta Simples.pdf" type="application/pdf">Consulta</a></p>
+                <p><a href="Livro/RSANTOS.pdf" type="application/pdf"></a></p>
+                <p>Pesquisar para ver como baixar em outra aba ou baixar direto</p>
+    <h2>Imagens Dinâmicas</h2>
+        <p>Multiplas imagens para dispositivos diferentes, considerando o tamanho do site, exemplo imagens pequeno para telas pequenas e imagens maiores para telas maiores</p>
+        <p>Preparar três imagens, pequena, média e grande, criar uma pasta colocar as imagens na pasta, lembrar de salvar as imagens com o .png ou .jpeg no nome</p>
+        <p>a Tag a se utilizar é a picture, </p>
+        <picture> 
+            <source media="(max-width:750px)" srcset="nome do arquivo" type="image">
+            <source media="(max=width: 1000px)" srcset="arquivo de imagem" type="image/jpeg">
+
+            <img src="olho medio.jpeg.jpeg" alt="imagem média">
+                   </picture>
+
+
+            <p>Impotante configuar o tamanho da tela para o tipo de dispositvo para que não ocorre Bounce e o site não seja indicado nos mescanismos de busca</p>
+    <h2>Colocando Audio no Site</h2>
+            <p>No you tube tem uma biblioteca de audio, se atentar para arquivos grandes e direitos autorais, formatos de audio MP3, WAV, OGG, as vezes </p>
+            <audio preload="metadata" autoplay controls loop>
+                <source src="escolhe o arquivo" type="audio/mpeg">
+                <source src="escolhe o arquivo" type="audio/wav">
+                <source src="escolhe o arquivo" type="audio/ogg">
+            </audio>
+            <p>A Ordem que for colocada é a ordem que o navegador vai tentar reproduzir, revisar a aula Capitulo 11 aula 3, arquivos WAV são extremamente pesados</p>
+            <h2>Estudo de Videos</h2>
+            <p>voltar para revisar se necessário</p>
+    
+
+<h1 style="background-color: bisque;">Estudo de CSS</h1>
+     <h2>Style in Line</h2> 
+     <p>O estilo é feito por linha, ou seja, para cada linha um comando</p>      
+    <h2 style="color: blueviolet;"> Capítulo I</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eum vitae perferendis adipisci temporibus? Debitis, vel saepe facilis, aut ab ipsum voluptas neque iure esse impedit ut fuga assumenda nostrum.</p>
+    <h2> Capítulo II</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut alias blanditiis reiciendis, dolor quos, ipsa vero a, nemo sit accusantium distinctio deserunt placeat similique tempora aliquid iste tempore odit?</p> 
+    <h2> Capítulo III</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni ipsa explicabo minus ea expedita voluptates dolorem earum laboriosam illum molestiae minima, ipsum optio sed repellat quibusdam veniam similique voluptatum!</p>
+        
+<p style="color: brown;">O que foi feito acima é style em line</p>
+
+    <h2>Estilos CSS Internos ou Locais</h2>
+<h2> Capítulo I</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eum vitae perferendis adipisci temporibus? Debitis, vel saepe facilis, aut ab ipsum voluptas neque iure esse impedit ut fuga assumenda nostrum.</p>
+    <h2> Capítulo II</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut alias blanditiis reiciendis, dolor quos, ipsa vero a, nemo sit accusantium distinctio deserunt placeat similique tempora aliquid iste tempore odit?</p> 
+    <h2> Capítulo III</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni ipsa explicabo minus ea expedita voluptates dolorem earum laboriosam illum molestiae minima, ipsum optio sed repellat quibusdam veniam similique voluptatum!</p>
+        
+<p> <a href="noticias pg 3/pg03.html">acesse</a> </p>
+
+<h2>Estilos CSS Externos</h2>
+<h2> Capítulo I</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eum vitae perferendis adipisci temporibus? Debitis, vel saepe facilis, aut ab ipsum voluptas neque iure esse impedit ut fuga assumenda nostrum.</p>
+    <h2> Capítulo II</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ut alias blanditiis reiciendis, dolor quos, ipsa vero a, nemo sit accusantium distinctio deserunt placeat similique tempora aliquid iste tempore odit?</p> 
+    <h2> Capítulo III</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magni ipsa explicabo minus ea expedita voluptates dolorem earum laboriosam illum molestiae minima, ipsum optio sed repellat quibusdam veniam similique voluptatum!</p>
+        
+<p> <a href="Pg02.html">acesse</a> </p>
+
+<p>Cria um arquivo com CSS coloca no inicio @@charset "UTF-8"; e depois cria o style, na página que vc quer utilizar o estilo você vai no head e coloca a tag link rel="stylesheet" href="style.css". 
+    Observe que é póssível criar um style na mesma página se vc seguir o modelo interno, ou seja posso usar os metodos simultaneamente (externo, interno e in line).
+
+
+
+    
+    
+
+
+
+
+
+    
+
+
+
+
+        
+
+
+
+
+
+
+
+</body>
+</html>
