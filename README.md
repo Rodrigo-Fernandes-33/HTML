@@ -20,14 +20,14 @@ Este repositório é voltado para iniciantes e desenvolvedores que desejam forta
 - `exemplos/`: Exemplos práticos de código HTML.  
 - `boas-praticas.md`: Lista de recomendações para criar páginas bem estruturadas.  
 - `projetos/`: Pequenos projetos para praticar o que foi aprendido.  
-- `recursos.md`: Links úteis para aprofundar seus estudos.  
+
 
 ### 🔑 **Principais Tópicos Cobertos:**  
 1. Estrutura básica de um documento HTML.  
 2. Elementos semânticos: `<header>`, `<main>`, `<footer>`, etc.  
 3. Trabalhando com listas, tabelas e formulários.  
 4. Links, imagens e multimídia.  
-5. Introdução ao CSS para estilizar páginas.  
+
 
 ---
 
